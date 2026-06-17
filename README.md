@@ -4,6 +4,18 @@
 
 ---
 
+## 📱 Telas do Aplicativo
+
+<p align="center">
+  <img src="assets/character_sheet.png" width="18%" alt="Ficha de Personagem" />
+  <img src="assets/dice_roller.png" width="18%" alt="Rolador de Dados" />
+  <img src="assets/campaigns.png" width="18%" alt="Campanhas" />
+  <img src="assets/campaign_details.png" width="18%" alt="Detalhes da Campanha" />
+  <img src="assets/encyclopedia.png" width="18%" alt="Enciclopédia" />
+</p>
+
+---
+
 ## 📖 A Origem do Projeto: Do Caos do Papel ao Celular
 
 Tudo começou em uma mesa clássica de RPG de sexta-feira à noite. 
