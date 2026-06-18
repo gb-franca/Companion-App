@@ -1,5 +1,5 @@
 # RPG Companion App 🎲
-**🌐 Demonstração em Produção:** [Acessar TaskFlow no Vercel](https://gb-franca.github.io/Companion-App/)
+**🌐 Demonstração em Produção:** [Acessar Companion App](https://gb-franca.github.io/Companion-App/)
 
 > Centralizando a magia do RPG de mesa diretamente na palma da sua mão.
 
