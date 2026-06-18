@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -25,8 +26,13 @@ class DbHelper {
   }
 
   Future<Database> _initDb() async {
-    final dbPath = await getDatabasesPath();
-    final path = join(dbPath, _dbName);
+    String path;
+    if (kIsWeb) {
+      path = _dbName;
+    } else {
+      final dbPath = await getDatabasesPath();
+      path = join(dbPath, _dbName);
+    }
     return await openDatabase(
       path,
       version: _dbVersion,
